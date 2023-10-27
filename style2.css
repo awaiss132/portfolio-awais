@@ -1,0 +1,31 @@
+@font-face {
+    font-family: blood;
+    src: url(/fonts/Poppins-Light.ttf);
+}
+    
+
+h1{
+font-family: blood;
+margin-top: 40%;
+color: #3A2618;
+}
+
+
+body{
+    background-color: #171614;
+    color: white;
+    text-align: center;
+}
+button{
+margin-top: 30px;
+font-size: 20px;
+border: none;
+background: #9A8873;
+box-shadow: -5px 5px 0 0 #3A2618;
+transition: all 0.3s ease-in;
+
+}
+button:hover{
+    box-shadow: -8px 8px 0px 0 red;
+    cursor: pointer;
+}
